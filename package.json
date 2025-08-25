@@ -1,0 +1,29 @@
+{
+  "name": "meshtastic-usb-react",
+  "version": "4.0.6",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.5.2",
+    "@bufbuild/protobuf": "^1.7.3",
+    "@meshtastic/protobufs": "npm:@jsr/meshtastic__protobufs@^2.7.0",
+    "@meshtastic/core": "npm:@jsr/meshtastic__core@^2.6.6",
+    "@meshtastic/transport-web-serial": "npm:@jsr/meshtastic__transport-web-serial@^0.2.5",
+    "ste-simple-events": "^3.0.11",
+    "tslog": "^4.9.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/react": "^18.2.60",
+    "@types/react-dom": "^18.2.19",
+    "vite": "^5.4.6",
+    "@vitejs/plugin-react": "^4.3.1"
+  }
+}
